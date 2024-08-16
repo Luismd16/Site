@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Borde para la imagen */
+.Borde {
+    padding: 30px;
+    background-color: #CCD5AE;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo de los párrafos */
+p {
+    margin: 20px;
+    line-height: 1.6;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #CCD5AE;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    p {
+        font-size: 1.2em;
+        margin: 30px 20%;
+    }
+
+    h1, h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 15px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
